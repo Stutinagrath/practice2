@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right bottom, #873572, black);
+  font-family: "Roboto", sans-serif; /* Applying Roboto font to the whole page */
+  color: lightgrey; /* Changing default text color */
+}
+
+.container {
+  max-width: 800px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: white; /* Changing h1 color to white */
+}
+
+.categories {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.category {
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background for categories */
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.product-card {
+  border: 1px solid white; /* Changing product card border color */
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 250px; /* Setting fixed width for product cards */
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background for product cards */
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Adding border radius to images */
+}
+
+.product-card h3 {
+  margin-top: 10px; /* Adding margin to top of product titles */
+  text-align: center;
+}
+
+.badge {
+  background-color: #ff9800;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
